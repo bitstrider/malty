@@ -1,0 +1,23 @@
+{
+  "name": "malty",
+  "version": "0.1.0",
+  "description": "detect known malicious packages in your installed npm dependencies",
+  "main": "lib/malty.js",
+  "bin": "bin/malty.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/malty.js"
+  },
+  "author": "Jason Yung",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitstrider/malty.git"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "cross-spawn": "^5.1.0",
+    "npm-registry-client": "^8.4.0"
+  }
+}

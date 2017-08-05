@@ -1,0 +1,17 @@
+{
+  "name": "malty-example",
+  "version": "1.0.0",
+  "description": "Example node project to test malty commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Yung",
+  "license": "ISC",
+  "dependencies": {
+    "crossenv": "^1.0.0",
+    "minimatch": "^3.0.4",
+    "munimatch": "^3.0.3",
+    "read": "npm/read"
+  }
+}
